@@ -1,0 +1,7 @@
+#ifndef __CONSOLE_SERVICE_HANDLER_H__
+#define __CONSOLE_SERVICE_HANDLER_H__
+
+
+
+
+#endif

@@ -1,0 +1,7 @@
+#ifndef __CONSOLE_SERVICE_CALL_TABLE_H__
+#define __CONSOLE_SERVICE_CALL_TABLE_H__
+
+
+
+
+#endif
