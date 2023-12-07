@@ -1,0 +1,7 @@
+#ifndef __BOARD_COMMAND_CALL_TABLE_MAPPER_H__
+#define __BOARD_COMMAND_CALL_TABLE_MAPPER_H__
+
+
+
+
+#endif

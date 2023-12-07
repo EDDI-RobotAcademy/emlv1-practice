@@ -1,0 +1,14 @@
+#ifndef __CONSOLE_SERVICE_CALL_TABLE_MAPPER_H__
+#define __CONSOLE_SERVICE_CALL_TABLE_MAPPER_H__
+
+#include "console_service.h"
+#include "console_service_handler.h"
+
+#define __CONSOLE_SERVICE_CALL_TABLE(number, function_prototype) [number] = function_prototype,
+
+__CONSOLE_SERVICE_CALL_TABLE(CONSOLE_GET_USER_INPUT, console_get_user_input)
+__CONSOLE_SERVICE_CALL_TABLE(CONSOLE_GET_USER_INPUT_WITH_MSG, console_get_user_input_with_msg)
+__CONSOLE_SERVICE_CALL_TABLE(CONSOLE_GET_HIDDEN_USER_INPUT_WITH_MSG, console_get_hidden_user_input_with_msg)
+__CONSOLE_SERVICE_CALL_TABLE(CONSOLE_PUT_OUTPUT_MSG, console_put_output_msg)
+
+#endif
