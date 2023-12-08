@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include "console_service.h"
 
-typedef void (* member_call_ptr_t) (void);
+typedef void (* console_service_call_ptr_t) (void);
 
 void console_protocol_not_implemented (void)
 {
