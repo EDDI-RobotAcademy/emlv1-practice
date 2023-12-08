@@ -1,0 +1,5 @@
+#ifndef __COMMENT_COMMAND_HANDLER_H__
+#define __COMMENT_COMMAND_HANDLER_H__
+
+
+#endif

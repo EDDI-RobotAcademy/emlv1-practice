@@ -1,0 +1,7 @@
+#ifndef __COMMENT_REPOSITORY_CALL_TABLE_H__
+#define __COMMENT_REPOSITORY_CALL_TABLE_H__
+
+
+
+
+#endif

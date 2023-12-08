@@ -12,4 +12,12 @@ struct _post_info
     char *postContent;
 };
 
+typedef struct _post_list post_list;
+struct _post_list
+{
+    post_info *prev_post;
+    post_info *next_post;
+    post_info post;
+};
+
 #endif
