@@ -1,0 +1,4 @@
+#ifndef __COMMENT_SERVICE_HANDLER_H__
+#define __COMMENT_SERVICE_HANDLER_H__
+
+#endif
