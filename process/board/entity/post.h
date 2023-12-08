@@ -1,8 +1,9 @@
 #ifndef __POST_H__
 #define __POST_H__
 
-#define _post_info post_info
-struct _post_info {
+typedef struct _post_info post_info;
+struct _post_info 
+{
     char *postName;
     char *postWriterName;
     char *postWriterPassword;
