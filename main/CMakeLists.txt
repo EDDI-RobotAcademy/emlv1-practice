@@ -1,9 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 project(emlv1_practice_board C)
 
-set(CMAKE_C_COMPILER "clang")
-set(CMAKE_CXX_COMPILER "clang++")
-
 set(CMAKE_C_STANDARD 99)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -g")
 
@@ -23,9 +20,8 @@ file(GLOB SOURCE_FILES
         "../process/post/entity/*.c"
         "../process/post/repository/*.c"
         "../process/post/service/*.c"
-        "../process/ui/console/controller/*.c"
-        "../process/ui/console/repository/*.c"
-        "../process/ui/console/service/*.c"
+        "../ui/console/repository/*.c"
+        "../ui/console/service/*.c"
 )
 
 add_executable(
